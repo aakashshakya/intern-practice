@@ -2,6 +2,6 @@ package com.Inheritance;
 
 public class Employee {
     String name = "Sushant Kandel";
-    String Address = "Gaindakot";
+    String address = "Gaindakot";
     int ID = 1;
 }
