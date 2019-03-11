@@ -8,7 +8,7 @@ public class JavaFinallyBlockExample {
         } catch (ArithmeticException e) {
             System.out.println(e);
         } finally {
-            System.out.println("Finally is execuated");
+            System.out.println("Finally is executed");
         }
 
     }
