@@ -16,7 +16,7 @@ public class ProjectManagerMultiLevel extends Developer {
 
     public static void main(String args[]) {
         Employee esewa = new ProjectManagerMultiLevel();
-        System.out.println(esewa.ID + "\n" + esewa.name + "\n" + esewa.Address + "\n" + ((ProjectManagerMultiLevel) esewa).department + "\n" + ((ProjectManagerMultiLevel) esewa).position + "\n" + ((ProjectManagerMultiLevel) esewa).teamMember + "\n" + ((ProjectManagerMultiLevel) esewa).projectRunning);
+        System.out.println(esewa.ID + "\n" + esewa.name + "\n" + esewa.address + "\n" + ((ProjectManagerMultiLevel) esewa).department + "\n" + ((ProjectManagerMultiLevel) esewa).position + "\n" + ((ProjectManagerMultiLevel) esewa).teamMember + "\n" + ((ProjectManagerMultiLevel) esewa).projectRunning);
 
 
     }
