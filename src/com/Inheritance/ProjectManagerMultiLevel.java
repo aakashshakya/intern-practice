@@ -11,14 +11,19 @@ package com.Inheritance;
  */
 
 public class ProjectManagerMultiLevel extends Developer {
-    int teamMember = 20;
-    String projectRunning = "Esewa pasal";
-
     public static void main(String args[]) {
-        Employee esewa = new ProjectManagerMultiLevel();
-        System.out.println(esewa.ID + "\n" + esewa.name + "\n" + esewa.Address + "\n" + ((ProjectManagerMultiLevel) esewa).department + "\n" + ((ProjectManagerMultiLevel) esewa).position + "\n" + ((ProjectManagerMultiLevel) esewa).teamMember + "\n" + ((ProjectManagerMultiLevel) esewa).projectRunning);
+        ProjectManagerMultiLevel esewa = new ProjectManagerMultiLevel();
+        esewa.setId(1);
+        esewa.setAddress("Gaida Kot");
+        esewa.setName("Sushant Kandel");
+        esewa.setDepartment("Development");
+        esewa.setPosition("Intern");
 
+        System.out.println("Below is the detail of new eSewa intern:");
+        System.out.println("Name: " + esewa.getName());
+        System.out.println("Address: " + esewa.getAddress());
+        System.out.println("Department: " + esewa.getDepartment());
+        System.out.println("Position: " + esewa.getPosition());
 
     }
-
 }
