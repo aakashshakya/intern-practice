@@ -1,6 +1,6 @@
 package com.exception;
 
-public class ReSolveInCatchBlock {
+public class CatchBlockDemo {
     public static void main(String args[]) {
 
         int i = 100;
