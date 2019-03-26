@@ -2,7 +2,6 @@ package com.java8Collection.lambdas.lambdaexercise;
 
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 public class DemoUsingJava8 {
@@ -16,7 +15,8 @@ public class DemoUsingJava8 {
                 new Person("Saira", "Chandra", 21)
         );
         //sort list by last name
-        Collections.sort(people,Comparator.comparing(Person::getLastName));
+       // Collections.sort(people,Comparator.comparing(Person::getLastName));
+        Collections.sort(people,(p1,p2)->p1.getLastName().compareTo(p2.getLastName()));
 
         // Create a methods that prints all elements in the list.
         printAll(people);
