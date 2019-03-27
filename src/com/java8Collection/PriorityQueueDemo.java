@@ -19,9 +19,10 @@ public class PriorityQueueDemo {
 
       System.out.println(priorityQueue.poll());//if queue is empty it returns null
         System.out.println(priorityQueue.remove());//if queue is empty it returns NoSuchElementException
-        System.out.println(priorityQueue);/**Here after using the poll and remove the placement of the remaining object in the queue
-         is not preserved it is done default sorting order.so to make it on our order we use MyComparator.
-         */
+        System.out.println(priorityQueue);//Here after using the poll and remove the placement of the remaining object in the queue
+         //is not preserved it is done default sorting order.so to make it on our order we use My comparator.
+
+
         }
     }
 
