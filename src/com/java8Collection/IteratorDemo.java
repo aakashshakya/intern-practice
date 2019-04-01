@@ -9,6 +9,7 @@ public class IteratorDemo {
         for (int i = 0; i < 10; i++) {
             al.add(i);
         }
+        al.forEach(i->System.out.println(i));
         System.out.println("The System Value is" + al);
         Iterator itr = al.iterator();
         while (itr.hasNext()) {

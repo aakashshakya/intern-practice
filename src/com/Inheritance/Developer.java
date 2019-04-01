@@ -6,11 +6,6 @@ public class Developer extends Employee {
 
     Developer(){}
 
-    public Developer(String department, String position) {
-        this.department = department;
-        this.position = position;
-    }
-
     public String getDepartment() {
         return department;
     }
